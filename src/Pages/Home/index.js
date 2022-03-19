@@ -5,7 +5,7 @@ import Page from '../../Components/Page';
 
 const Home = () => {
   return (
-    <Page title="Explore">
+    <Page title="Home">
       <HeroSec />
     </Page>
   );
