@@ -1,4 +1,4 @@
-export default [
+const App = [
   {
     id: 1,
     name: "YumaHisai",
@@ -12,3 +12,5 @@ export default [
     avatar: "https://avatars0.githubusercontent.com/u/70823682?s=400&u=7ee96b166eba6a3552aef0f9496271c5b13adb7a&v=4"
   }
 ]
+
+export default App;

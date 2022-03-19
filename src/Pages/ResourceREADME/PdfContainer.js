@@ -25,13 +25,18 @@ class DocService {
 
 const Doc = new DocService();
 
-export default ({ name, ownerName, children }) => {
+const App = ({ name, ownerName, children }) => {
   const bodyRef = createRef();
   const [disable, setDisable] = useState(false);
   const createPdf = () => {
     setDisable(true);
     Doc.createPdf(bodyRef.current, name, setDisable);
-  };
+  }
+
+  export default App;
+
+  
+
 
   useEffect(() => {
     if (disable) {

@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Terminal, Sun, Moon } from 'react-feather';
+import { Sun, Moon } from 'react-feather';
 import { Link, withRouter } from 'react-router-dom';
 import ThemeContext from '../context/theme/themeContext'
 

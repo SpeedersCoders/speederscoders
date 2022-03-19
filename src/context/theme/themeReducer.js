@@ -1,6 +1,6 @@
 import { TOGGLE_THEME } from '../types';
 
-export default (state, action) => {
+const App = (state, action) => {
   switch (action.type) {
     case TOGGLE_THEME:
       return { isDarkMode: action.payload };
@@ -8,3 +8,5 @@ export default (state, action) => {
       return state;
   }
 }
+
+export default App;

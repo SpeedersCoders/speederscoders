@@ -1,4 +1,4 @@
-export default [
+const App = [
   {
     id: 1,
     link:
@@ -22,3 +22,5 @@ export default [
     category: ['plugin', 'java', 'paper', 'public'],
   }
 ];
+
+export default App;
