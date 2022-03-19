@@ -5,7 +5,6 @@ import {
   Instagram,
   GitHub,
   Twitter,
-  Linkedin,
 } from 'react-feather';
 import ReactTooltip from 'react-tooltip';
 
@@ -53,13 +52,13 @@ const Footer = () => {
             <Twitter color='#1DA1F2' className='icon' />
           </a>
           <a
-            href='https://www.linkedin.com/in/SpeedersCoders/'
+            href='https://www.youtube.com/channel/UCVtK19ogPZv0awJ2_btJQVQ'
             target='_blank'
             rel='noopener noreferrer'
             className='is-hidden-touch button button-special is-rounded box-shadow-lift'
-            data-tip='contact on Linkedin 👨‍⚖️'
+            data-tip='View YouTube Channel 😎'
           >
-            <Linkedin color='#0077B5' className='icon' />
+            <Heart color='#0077B5' className='icon' />
           </a>
         </div>
       </div>
