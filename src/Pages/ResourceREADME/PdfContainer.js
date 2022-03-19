@@ -7,11 +7,11 @@ class DocService {
     savePDF(
       html,
       {
-        title: 'speederscoders.cf',
+        title: 'speederscoders.github.io',
         scale: 0.8,
         producer: 'SpeedersCoders',
         subject: 'Projects',
-        creator: 'SpeedeersCoders',
+        creator: 'YumaHisai',
         paperSize: 'Letter',
         fileName: name + '.pdf',
         margin: 5,
@@ -25,18 +25,13 @@ class DocService {
 
 const Doc = new DocService();
 
-const App = ({ name, ownerName, children }) => {
+export default ({ name, ownerName, children }) => {
   const bodyRef = createRef();
   const [disable, setDisable] = useState(false);
   const createPdf = () => {
     setDisable(true);
     Doc.createPdf(bodyRef.current, name, setDisable);
-  }
-
-  export default App;
-
-  
-
+  };
 
   useEffect(() => {
     if (disable) {
@@ -63,7 +58,7 @@ const App = ({ name, ownerName, children }) => {
               disabled={disable}
             >
               <Download />
-              <span>&emsp;Download ReadMe</span>
+              <span>&emsp;Download ReadME</span>
             </button>
             <a
               href={`https://github.com/${ownerName}/${name}/`}

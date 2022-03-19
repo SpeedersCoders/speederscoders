@@ -1,6 +1,6 @@
 import { SET_FILTERED_RESOURCES, SET_PAGE_TITLE } from '../types';
 
-export App = (state, action) => {
+export default (state, action) => {
   switch (action.type) {
     case SET_FILTERED_RESOURCES:
       return { ...state, ...action.payload };
@@ -10,5 +10,3 @@ export App = (state, action) => {
       return state;
   }
 }
-
-export default App;
