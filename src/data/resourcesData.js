@@ -8,7 +8,7 @@ export default [
       'MCP Client 2022 Fps Boost',
     repoOwnerName: 'yumahisai',
     repoOwner: 'YumaHisai',
-    category: ['java', 'mcp', 'client', 'public'],
+    category: ['java', 'mcp', 'client', 'public', 'yumahisai'],
   },
   {
     id: 2,
@@ -19,6 +19,6 @@ export default [
       'Ban Players From Mac Address',
     repoOwnerName: 'yumahisai',
     repoOwner: 'YumaHisai',
-    category: ['plugin', 'java', 'paper', 'public'],
+    category: ['plugin', 'java', 'paper', 'public', 'yumahisai'],
   }
 ];
