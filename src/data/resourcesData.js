@@ -3,7 +3,7 @@ export default [
     id: 1,
     link:
       'https://raw.githubusercontent.com/YumaHisai/TroyClient-Official/master/README.md',
-    repoName: 'TroyClient',
+    repoName: 'TroyClient-Official',
     description:
       'MCP Client 2022 Fps Boost',
     repoOwnerName: 'yumahisai',
