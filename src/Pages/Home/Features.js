@@ -1,18 +1,4 @@
 import React from "react";
-import {
-  Codepen,
-  Youtube,
-  HelpCircle,
-  Chrome,
-  UserPlus,
-  UploadCloud,
-  AlertCircle,
-  Star,
-  GitMerge,
-  Minimize,
-  Filter,
-  Folder,
-} from "react-feather";
 import { withRouter } from "react-router-dom";
 
 const Features = ({ history }) => {
@@ -20,7 +6,7 @@ const Features = ({ history }) => {
     <section id="features" className="container" style={{ marginTop: "1rem" }}>
       <div className="features">
         <div className="features-title has-text-centered">
-          <iframe width="1000" height="600"
+          <iframe title="JavaPlugin" width="1000" height="600"
             src="https://www.youtube.com/embed/z2dQezV-3-g">
           </iframe>
         </div>
