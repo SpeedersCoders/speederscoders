@@ -27,12 +27,19 @@ const HeroSec = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
+
                 <GitHub /> <span> &emsp;Organization</span>
-              </a>
+
+              </a> 
+
             </div>
+
+
           </div>
 
+
           <div className="column has-text-centered is-hidden-desktop">
+
             <p
               className="title is-2 fadeInUp"
               style={{ animationDelay: ".25s" }}
@@ -53,12 +60,21 @@ const HeroSec = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
+
                 <GitPullRequest /> <span> &emsp;Organization</span>
+
               </a>
+
+
+
             </div>
           </div>
+
         </div>
+
       </section>
+
+
     </div>
   );
 };
