@@ -5,6 +5,7 @@ const Suggestion = () => {
   const filters = useMemo(() => ([
     'speederscoders',
     'yumahisai',
+    'dr4aky',
     'threewhi',
     'paper',
     'spigot',
@@ -29,6 +30,7 @@ const Suggestion = () => {
     'All',
     'SpeedersCoders',
     'YumaHisai',
+    'Dr4aKy',
     'ThreeWhi',
     'Paper',
     'Spigot',

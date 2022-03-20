@@ -10,6 +10,7 @@ const SearchInput = () => {
   const suggestions = [
     'speederscoders',
     'yumahisai',
+    'dr4aky',
     'threewhi',
     'paper',
     'spigot',
