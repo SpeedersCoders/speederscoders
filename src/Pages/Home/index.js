@@ -1,13 +1,13 @@
 import React from 'react';
 import HeroSec from './HeroSec';
-import Features from './Features';
+import YouTube from './YouTube';
 import Page from '../../Components/Page';
 
 const Home = () => {
   return (
     <Page title="Home">
       <HeroSec />
-      <Features />
+      <YouTube />
     </Page>
   );
 };
